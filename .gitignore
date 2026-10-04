@@ -1,0 +1,30 @@
+# market data (large, downloadable from emi.nasdaq.com)
+*.gz
+*.itch
+*.md5sum
+
+# build output and binaries
+build/
+itch/itch_replay
+itch/itch_count
+orderbook/itch_book
+reciever/itch_recv
+reciever/itch_rev2
+reciever/itch_rev3
+receiver/itch_recv
+receiver/itch_rev2
+receiver/itch_rev3
+*.o
+
+# experiment output
+results/
+*.bin
+*.data
+*.data.old
+
+# python / editor
+__pycache__/
+*.pyc
+.venv/
+*.swp
+.vscode/
